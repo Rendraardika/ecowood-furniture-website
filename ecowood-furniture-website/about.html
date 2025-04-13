@@ -1,0 +1,273 @@
+<!--about.html (About Us Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoWood Furniture - About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .about-header {
+            background-color: #e9ecef;
+            padding: 50px 0;
+            margin-bottom: 30px;
+        }
+        .team-img {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #3c2a21;
+            color: white;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .navbar {
+            background-color: #3c2a21 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .timeline {
+            position: relative;
+            padding: 0;
+            list-style: none;
+        }
+        .timeline:before {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 40px;
+            width: 2px;
+            margin-left: -1.5px;
+            content: '';
+            background-color: #e9ecef;
+        }
+        .timeline > li {
+            position: relative;
+            min-height: 50px;
+            margin-bottom: 50px;
+        }
+        .timeline > li:after, .timeline > li:before {
+            display: table;
+            content: ' ';
+        }
+        .timeline > li:after {
+            clear: both;
+        }
+        .timeline > li .timeline-panel {
+            position: relative;
+            float: right;
+            width: calc(100% - 90px);
+            padding: 0 20px 0 100px;
+            text-align: left;
+        }
+        .timeline > li .timeline-image {
+            position: absolute;
+            z-index: 100;
+            left: 0;
+            width: 80px;
+            height: 80px;
+            margin-left: 0;
+            text-align: center;
+            color: white;
+            border: 7px solid #e9ecef;
+            border-radius: 100%;
+            background-color: #3c2a21;
+        }
+        .timeline > li .timeline-image h4 {
+            font-size: 10px;
+            line-height: 14px;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EcoWood Furniture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Header -->
+    <div class="about-header text-white d-flex align-items-center" style="
+  background-image: url('https://media.istockphoto.com/id/1326191354/photo/green-sofa-in-modern-apartment-interior-with-empty-wall-and-wooden-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=PjOILuucCS88JEH-HnJtJrXXZavLC_kkcTewG49bNKo=');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+">
+  <div class="container text-center">
+    <h1>About EcoWood Furniture</h1>
+    <p class="lead">Our journey to sustainable furniture production</p>
+  </div>
+</div>
+ 
+
+    <!-- Our Story -->
+    <div class="container">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2>Our Story</h2>
+                <p>Founded in 2018 by a group of environmentally conscious craftsmen, EcoWood Furniture was born out of a passion for sustainable living and quality craftsmanship.</p>
+                <p>We started as a small workshop in East Java with just three artisans creating bespoke furniture pieces from reclaimed wood. Today, we've grown into a team of 25 dedicated individuals who share our vision of creating beautiful, functional furniture while minimizing environmental impact.</p>
+                <p>Each piece of furniture is handcrafted with attention to detail, ensuring that our customers receive not just furniture, but heirlooms that can be cherished for generations.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 300px;">
+                    <img src="https://media.istockphoto.com/id/1479651836/id/foto/potret-dua-pemilik-usaha-kecil-yang-bekerja-sama-dalam-menciptakan-desain-kursi-meja-makan.jpg?s=612x612&w=0&k=20&c=bfUcSmkm94cwvKe6-_UDV3xGjCA89ZO2x1i7vS0ba5g=" 
+                    alt="Workshop" 
+                    class="w-100 h-100 object-fit-cover" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Mission -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <h2>Our Mission</h2>
+                <p>At EcoWood Furniture, our mission is to create sustainable, high-quality furniture that brings both beauty and functionality to homes while minimizing our environmental footprint.</p>
+                <p>We believe that furniture production doesn't have to come at the expense of our planet. By using sustainable and reclaimed materials, implementing eco-friendly production processes, and emphasizing craftsmanship, we aim to set a new standard in the furniture industry.</p>
+                <p>We're committed to supporting local communities by sourcing materials from responsible suppliers and providing fair employment opportunities.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 300px;">
+                    <img src="https://media.istockphoto.com/id/2161384501/id/foto/closeup-pengusaha-berjabat-tangan-di-lokakarya-komitmen-strategis-esg-laporan-sdgs-pemanasan.jpg?s=612x612&w=0&k=20&c=yN250myLxroS5Lj8NwBtpNDq_pNlo3hIVtMIM-cQppE=" 
+                    alt="Workshop" 
+                    class="w-100 h-100 object-fit-cover" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Our History Timeline -->
+        <h2 class="text-center mb-5">Our Journey</h2>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image">
+                    <h4>2018</h4>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Our Beginning</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>EcoWood Furniture was founded with a small workshop in East Java.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image">
+                    <h4>2019</h4>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Growing Our Team</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>We expanded our team to 10 artisans and moved to a larger workshop.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image">
+                    <h4>2021</h4>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Sustainable Certification</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>We achieved our first sustainability certification and launched our e-commerce platform.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image">
+                    <h4>2023</h4>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>National Recognition</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>EcoWood was recognized as one of Indonesia's top sustainable furniture brands.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image">
+                    <h4>Today</h4>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Continuous Growth</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p>We continue to grow while staying true to our sustainable roots.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>EcoWood Furniture</h5>
+                    <p>Sustainable furniture for eco-conscious living.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@ecowood.com<br>
+                    Phone: +62 123 456 7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <i class="fab fa-facebook me-2"></i>
+                        <i class="fab fa-instagram me-2"></i>
+                        <i class="fab fa-twitter me-2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 EcoWood Furniture. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

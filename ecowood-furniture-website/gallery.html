@@ -1,0 +1,202 @@
+<!-- gallery.html (Gallery Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoWood Furniture - Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gallery-header {
+            background-color: #e9ecef;
+            padding: 50px 0;
+            margin-bottom: 30px;
+        }
+        .gallery-item {
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            transition: all 0.4s ease;
+            height: 250px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #3c2a21;
+            color: white;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .navbar {
+            background-color: #3c2a21 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .gallery-placeholder {
+            height: 250px;
+            background-color: #6c757d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EcoWood Furniture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Header -->
+    <div class="gallery-header">
+        <div class="container text-center">
+            <h1>Our Gallery</h1>
+            <p class="lead">Explore our craftmanship and design aesthetics</p>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/2191829498/photo/wabi-sabi-style-living-room-with-sofa-wicker-chairs-coffee-table-potted-plant-and-parquet.webp?a=1&b=1&s=612x612&w=0&k=20&c=cDQs84PwWwkM6WBTi2P43FpekPWilM_-lEFFDRR166s=" 
+                    alt="Living Room Set">
+                  </div>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/1189919856/photo/looks-inviting-doesnt-it.webp?a=1&b=1&s=612x612&w=0&k=20&c=Zh6cYxDUs2yt6_xDQjDby1MLyclON2Ec9E5DneKBGDs=" 
+                    alt="Bedroom Set">
+                  </div>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/825839060/id/foto/ruang-makan.jpg?s=612x612&w=0&k=20&c=ugCxgJxKrIKF0XY_OKu5oqf3vYDoANUmOUAL_DJtKk8=" 
+                    alt="Dining Set">
+                </div>
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/1669222472/photo/smart-gen-z-tech-talent-workforce-typing-seo-sale-report-on-desktop-pc-happy-work-easy-relax.webp?a=1&b=1&s=612x612&w=0&k=20&c=6sBDAYyk4p9QgRwIr3lBF6-CgX88gPGOH7ecAxkGsQs=" 
+                    alt="Home Office">
+                  </div>                  
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/1020484974/id/foto/pebisnis-multi-etnis-menghadiri-rapat.jpg?s=612x612&w=0&k=20&c=4NOQitVqbg_-Zv2YVFo6InEFFC9gfRz8WiEECVNtx0A=" 
+                    alt="Workshop proces">
+                  </div>               
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/165677040/photo/long-rows-of-cut-timber.webp?a=1&b=1&s=612x612&w=0&k=20&c=RGk4xgF1mun7XzxfQU6lzBM2ClxTPiBGy4Curn5tZxU=" 
+                    alt="Raw Material">
+                  </div>               
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/2149042268/id/foto/two-business-partner-colleagues-discuss-financial-and-company-planning-graph-during-budget.jpg?s=612x612&w=0&k=20&c=enh9FF0j-xX8A2cUj1hzV9q6Actl95Ur9pKj1rF6GQw=" 
+                    alt="Costum Project">
+                  </div>                  
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/175188856/photo/male-carpenter-applying-varnish-to-wooden-deck.webp?a=1&b=1&s=612x612&w=0&k=20&c=oAs-23KzdZ0Y4amqeAI3auH91ycTE7-Y6GkE6xBORVk=" 
+                    alt="Wood Finishing">
+                  </div>               
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/121260897/id/foto/pasar-kerajinan-bambu-asia.jpg?s=612x612&w=0&k=20&c=fSobYxmR5LhbJeAMv_LmSAl-HSY-xkZ0SaQOW12tVhA=" 
+                    alt="Bamboo Product">
+                  </div>               
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/465663522/photo/teak-wood-furniture-stand-on-the-terrace.webp?a=1&b=1&s=612x612&w=0&k=20&c=UBjoWlh2p7-WRX9pT3naH-1NWrXKK-wmRtd_kn8UENM=" 
+                    alt="Teak Furniture">
+                  </div>              
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/955108930/id/foto/wanita-memilih-kursi-di-salon.jpg?s=612x612&w=0&k=20&c=rt7DoHC2jHLyByJJZ4Vmm1leQDqDhTjI4VfKPNbJgaQ=" 
+                    alt="Costumer Intalation">
+                  </div>             
+            </div>
+            <div class="col-md-4 gallery-item">
+                <div class="gallery-placeholder">
+                    <img src="https://media.istockphoto.com/id/2190182062/id/foto/kalender-meja-2025-dan-medali-pemenang.jpg?s=612x612&w=0&k=20&c=xhOj59IITE6U46duSBLtVBTZP_G47Jq16WOn0VDMFH0=" 
+                    alt="Award & Recorditing">
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>EcoWood Furniture</h5>
+                    <p>Sustainable furniture for eco-conscious living.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@ecowood.com<br>
+                    Phone: +62 123 456 7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <i class="fab fa-facebook me-2"></i>
+                        <i class="fab fa-instagram me-2"></i>
+                        <i class="fab fa-twitter me-2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 EcoWood Furniture. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

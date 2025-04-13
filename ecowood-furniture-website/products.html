@@ -1,0 +1,290 @@
+<!-- products.html (Products Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoWood Furniture - Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .products-header {
+            background-color: #e9ecef;
+            padding: 50px 0;
+            margin-bottom: 30px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #3c2a21;
+            color: white;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .navbar {
+            background-color: #3c2a21 !important;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .btn-primary {
+            background-color: #3c2a21;
+            border-color: #3c2a21;
+        }
+        .btn-primary:hover {
+            background-color: #5c4033;
+            border-color: #5c4033;
+        }
+        .category-btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EcoWood Furniture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Header -->
+    <div class="products-header">
+        <div class="container text-center">
+            <h1>Our Products</h1>
+            <p class="lead">Sustainable furniture for every room in your home</p>
+        </div>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="container mb-4">
+        <div class="text-center">
+            <button class="btn btn-outline-secondary category-btn active" data-filter="all">All Products</button>
+            <button class="btn btn-outline-secondary category-btn" data-filter="living-room">Living Room</button>
+            <button class="btn btn-outline-secondary category-btn" data-filter="dining-room">Dining Room</button>
+            <button class="btn btn-outline-secondary category-btn" data-filter="bedroom">Bedroom</button>
+            <button class="btn btn-outline-secondary category-btn" data-filter="office">Office</button>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="container">
+        <div class="row">
+            <!-- Living Room Products -->
+            <div class="col-md-4 mb-4 product-card" data-category="living-room">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1900739940/id/foto/ruang-tamu-dalam-tren-warna-peach-warna-2024-tahun-sofa-abu-abu-dengan-dinding-cat-warna-peach.jpg?s=612x612&w=0&k=20&c=CqdIgRNoCtJHh4CsQqauYu3SEQgxycCOjdDcN1YQoOo=" 
+                    class="card-img-top img-fluid" 
+                    alt="Eco Sofa Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Eco Sofa</h5>
+                        <p class="card-text">A comfortable 3-seater sofa made with sustainable materials.</p>
+                        <p class="text-success fw-bold">Rp 5,500,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 product-card" data-category="living-room">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1755219722/id/foto/tempat-minum-perkotaan-populer-dengan-furnitur-desainer.jpg?s=612x612&w=0&k=20&c=UylGN4oGYmnrCFG4mUJZWf9LKz-CmLgaaELjeEmenQ4=" 
+                    class="card-img-top img-fluid" 
+                    alt="Coffee Table Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Coffee Table</h5>
+                        <p class="card-text">Elegant coffee table made from reclaimed teak wood.</p>
+                        <p class="text-success fw-bold">Rp 2,300,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dining Room Products -->
+            <div class="col-md-4 mb-4 product-card" data-category="dining-room">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1992234224/id/foto/gambar-set-makan-luar-ruangan-yang-terbuat-dari-bambu-alami-di-perkebunan-kelapa-umum-konsep.jpg?s=612x612&w=0&k=20&c=-uFlxSs64LghCciONlDYypAQ_qi9KdUYEXuovGLYtxY=" 
+                    class="card-img-top img-fluid" 
+                    alt="Bamboo Dining Table Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamboo Dining Table</h5>
+                        <p class="card-text">Sturdy dining table made from sustainable bamboo.</p>
+                        <p class="text-success fw-bold">Rp 4,200,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 product-card" data-category="dining-room">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1329937916/photo/scandinavian-domestic-dining-room-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=pgPp8y_7c4VfW7QPSUOKSbH0xuySskbEC2nZf7TdzSc=" 
+                    class="card-img-top img-fluid" 
+                    alt="Eco Dining Chair Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Eco Dining Chair</h5>
+                        <p class="card-text">Comfortable dining chair with sustainable materials.</p>
+                        <p class="text-success fw-bold">Rp 850,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bedroom Products -->
+            <div class="col-md-4 mb-4 product-card" data-category="bedroom">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1193385037/id/foto/pindah-rumah.jpg?s=612x612&w=0&k=20&c=TlBKOhwt5krGAsfVICXpDjfiSxsRKBdQkNFYoXtxZDo=" 
+                    class="card-img-top img-fluid" 
+                    alt="Wooden Bed Frame Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Wooden Bed Frame</h5>
+                        <p class="card-text">Sturdy bed frame made from ethically sourced wood.</p>
+                        <p class="text-success fw-bold">Rp 6,800,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 product-card" data-category="bedroom">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/92221966/id/foto/lemari-pakaian-bambu.jpg?s=612x612&w=0&k=20&c=ec0ZcBPEpeMh9UFm2TlDMQW1aCyp0x6iuEYk__Ilks4=" 
+                    class="card-img-top img-fluid" 
+                    alt="Bamboo Wardrobe Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamboo Wardrobe</h5>
+                        <p class="card-text">Spacious wardrobe made from sustainable bamboo.</p>
+                        <p class="text-success fw-bold">Rp 7,500,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Office Products -->
+            <div class="col-md-4 mb-4 product-card" data-category="office">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1270008674/id/foto/seniman-digital-merenungkan-saat-istirahat-kopi-di-kantor-rumahnya.jpg?s=612x612&w=0&k=20&c=awAAvynfsn9wBzVH30r7H4tNfrXGiecoFUfKczxEjh0=" 
+                    class="card-img-top img-fluid" 
+                    alt="Work Desk Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Work Desk</h5>
+                        <p class="card-text">Ergonomic desk made from reclaimed wood.</p>
+                        <p class="text-success fw-bold">Rp 3,900,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 product-card" data-category="office">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/637907700/id/foto/pemandangan-kursi-kantor-di-ruang-rapat-bisnis.jpg?s=612x612&w=0&k=20&c=KGCDBCRmumZyDMNtSeQAsev9I9f7C3NVtOSROZTHUIc=" 
+                    class="card-img-top img-fluid" 
+                    alt="Eco Sofa Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Ergonomic Office Chair</h5>
+                        <p class="card-text">Comfortable office chair with sustainable materials.</p>
+                        <p class="text-success fw-bold">Rp 2,100,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4 product-card" data-category="office">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/2159352095/photo/old-style-living-room-interior-with-a-bookshelf-in-3d.webp?a=1&b=1&s=612x612&w=0&k=20&c=YVe12IwUJPEmrENfzCitFL-X-kGaVY3H7JsONeQLBF0=" 
+                    class="card-img-top img-fluid" 
+                    alt="Eco Sofa Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Wooden Bookshelf</h5>
+                        <p class="card-text">Sturdy bookshelf made from reclaimed wood.</p>
+                        <p class="text-success fw-bold">Rp 3,200,000</p>
+                        <a href="orders.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>EcoWood Furniture</h5>
+                    <p>Sustainable furniture for eco-conscious living.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@ecowood.com<br>
+                    Phone: +62 123 456 7890</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div>
+                        <i class="fab fa-facebook me-2"></i>
+                        <i class="fab fa-instagram me-2"></i>
+                        <i class="fab fa-twitter me-2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 EcoWood Furniture. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Product category filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.category-btn');
+            const productCards = document.querySelectorAll('.product-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    productCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
